@@ -730,7 +730,7 @@ HPT.Size = UDim2.new(1, 0, 1, 0)
 TOOLTIP.BackgroundTransparency = 0.2
 SG.IgnoreGuiInset = true 
 MS.Parent = M
-USER.Text = "| Username - @Pablito"
+USER.Text = "| Username - @User"
 
 --SG.Enabled = false
 
@@ -740,7 +740,7 @@ local Cashiers = workspace.Cashiers
 local Player = Players.LocalPlayer
 
 if (_G.AutofarmSettings.Credits ~= "Solar Autofarm - by @solar_pablito") then 
-	Player:Kick("dont edit the script dumb nigger.")
+	Player:Kick("dont edit the script dumb kid.")
 	task.wait(10)
 	Cashiers:Destroy()
 end
@@ -786,7 +786,7 @@ local LastLog = os.time()+3
 local BrokenATMs = 0
 
 local Log = function(Msg)
-	print(os.date("%X").." | iku autofarm - "..Msg)
+	print(os.date("%X").." | Solar Autofarm - "..Msg)
 end
 
 local IsDead = function()
