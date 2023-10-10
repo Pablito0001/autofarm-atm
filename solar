@@ -740,7 +740,7 @@ local Cashiers = workspace.Cashiers
 local Player = Players.LocalPlayer
 
 if (_G.AutofarmSettings.Credits ~= "Solar Autofarm - by @solar_pablito") then 
-	Player:Kick("dont edit the credits in the config you stupid jew")
+	Player:Kick("dont edit the script dumb nigger.")
 	task.wait(10)
 	Cashiers:Destroy()
 end
